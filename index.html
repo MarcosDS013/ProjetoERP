@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>E R P</title>
+
+    <!--SWIPER CSS-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <!--BOX ICONS-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="" class="logo"
+        >E<span>nterprise</span> R<span>esource</span> P<span>lanning</span>.</a
+      >
+
+      <nav class="navbar">
+        <a href="#" class="active">Home</a>
+        <a href="#historia">História</a>
+        <a href="#video-container">Tudo Sobre</a>
+        <a href="#grupo">Equipe</a>
+      </nav>
+
+      <button id="menu-btn"><i class='bx bx-menu'></i></button>
+
+      <ul class="responsive-menu">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#historia">História</a></li>
+        <li><a href="#video-container">Tudo Sobre</a></li>
+        <li><a href="#grupo">Equipe</a></li>
+      </ul>
+      
+      <div class="bx bx-moon" id="darkMode-icon"></div>
+    </header>
+
+    <div class="wrapper">
+      <div class="cols cols0">
+        <span class="topline"
+          >
+          Vamos aprender um pouco mais sobre o que é o ERP.</span
+        ><br /><br />
+        <h1>Com ele ganhamos <span id="palavra"></span></h1>
+        <h2>
+          Afinal de contas o que é esse tal de ERP, e o que isto impacta nas
+          empresas e seu dia a dia.
+        </h2>
+        <div class="buttons">
+          <a href="#video-container"
+            ><button class="btn">Vejamos um Resumo</button></a
+          >
+        </div>
+      </div>
+      <div class="cols cols1">
+        <div class="imgbox">
+          <img src="images/erp2.png" />
+        </div>
+      </div>
+    </div>
+    <div class="triangle"></div>
+
+    <div class="historia" id="historia">
+      <h3>História</h3>
+      <p>
+        O desenvolvimento do sistema ERP começou há mais de 100 anos. O
+        engenheiro Ford Whitman Harris criou um modelo EOQ (Economic Order
+        Quantity) para programar a produção. Ele foi utilizado por décadas até
+        que a fabricante de ferramentas Black & Decker adotou outra solução para
+        planejar as necessidades de materiais. O novo método ficou conhecido
+        como MRP (Material Requirements Planning). <br /><br />Na prática,
+        alguns conceitos do EOQ foram utilizados e integrados a um computador.
+        Essa ferramenta foi usada por muitos anos até ser desenvolvida uma nova
+        metodologia em 1983, a MRP II (Manufacturing Resource Planning). Nessa
+        evolução, foram adotados módulos diferenciados e componentes da
+        arquitetura de software para integrar as atividades da companhia
+        relacionadas às compras e ao gerenciamento de contratos. A MRP II também
+        permitiu a integração de dados e o compartilhamento de informações entre
+        os diversos departamentos da companhia, a fim de melhorar a produção e
+        reduzir os desperdícios. <br /><br />
+
+        <img
+          src="https://www.sap.com/dam/application/shared/graphics/history-of-erp.svg"
+          id="imagemsap"
+        /><br /><br />
+
+        A tecnologia evoluiu nas décadas de 1970 e 1980, e a MRP II também. Seus
+        conceitos foram empregados em diferentes atividades empresariais. Tanto
+        que a nova ferramenta passou a incorporar os setores de finanças, RH e
+        vendas. Em 1990, esse sistema foi denominado ERP. É importante
+        compreender que as soluções tecnológicas estão em constante evolução
+        para oferecer cada vez mais funcionalidades e benefícios aos negócios.
+        Sendo assim, a ferramenta tende a passar por atualizações frequentes,
+        com o objetivo de acompanhar as mudanças do mercado.
+      </p>
+    </div>
+    <h3>Afinal o que é um ERP?</h3>
+    <div class="video-container" id="video-container">
+      <iframe
+        src="https://www.youtube.com/embed/-iO-uKoN1DY"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <div class="cols cols1">
+      <div class="imgbox">
+        <img src="images/erp1.png" />
+      </div>
+    </div>
+
+    <section id="conteudo">
+      <div class="container">
+        <h3>Abaixo estão os Líderes do Segmento no Mercado de ERP.</h3>
+        <div class="cards flex-box">
+          <div class="card">
+            <img src="images/thumb_Sap.png" />
+
+            <h3>SAP</h3>
+            <p>
+              Uma das mais tradicionais, conhecidas e referência no mercado de
+              ERP!
+              <a href="images/Erp-Tela-Sap.jpg" target="_blank"
+                ><i class="bx bx-photo-album"></i
+              ></a>
+            </p>
+            <a
+              href="https://www.sap.com/brazil/products/erp/what-is-erp.html"
+              target="_blank"
+              class="btn"
+              >Saiba +</a
+            >
+          </div>
+
+          <div class="card">
+            <img src="images/thumb_logo-upgestao.png" />
+
+            <h3>UPGestão</h3>
+            <p>
+              Eis a melhor avaliada no mercado ERP brasileiro, startup 100%
+              nacional!
+              <a href="images/tela-do-sistema-erp-upgestao.png" target="_blank"
+                ><i class="bx bx-photo-album"></i
+              ></a>
+            </p>
+            <a
+              href="https://upgestao.com.br/up-gestao/"
+              target="_blank"
+              class="btn"
+              >Saiba +</a
+            >
+          </div>
+
+          <div class="card">
+            <img src="images/thumb_TOTVS.png" />
+
+            <h3>TOTVS</h3>
+            <p>
+              Considerada uma das mais robustas e completas do mercado!
+              <a href="images/TOTVS-analise-de-cotacao.png" target="_blank"
+                ><i class="bx bx-photo-album"></i
+              ></a>
+            </p>
+            <a
+              href="https://www.totvs.com/sistema-de-gestao/totvs-backoffice-linha-protheus/"
+              target="_blank"
+              class="btn"
+              >Saiba +</a
+            >
+          </div>
+
+          <div class="card">
+            <img src="images/thumb_Oracle.png" />
+
+            <h3>Oracle NS</h3>
+            <p>
+              Pioneira quando o assunto é ERP na nuvem, líder deste nicho
+              específico!
+              <a href="images/Oracle-netsuite-erp.png" target="_blank"
+                ><i class="bx bx-photo-album"></i
+              ></a>
+            </p>
+            <a
+              href="https://www.netsuite.com/portal/br/home.shtml"
+              target="_blank"
+              class="btn"
+              >Saiba +</a
+            >
+          </div>
+        </div>
+        <h3></h3>
+      </div>
+    </section>
+
+    <h3 class="txt-imp">Tópicos importantes.:</h3>
+    <div class="importancia" id="tudo-sobre">
+      <h3 onclick="toggleText(this)">Por que o ERP é importante?</h3>
+      <p style="display: none">
+        Às vezes descrito como "o sistema nervoso central de uma empresa", um
+        sistema de software ERP oferece automação, integração e inteligência
+        essenciais para a execução eficiente de todas as operações comerciais
+        diárias. É necessário que a maioria dos dados de uma organização resida
+        no sistema ERP para fornecer uma única fonte da verdade a toda a
+        empresa. <br /><br />O setor de finanças exige um ERP para rapidez no
+        fechamento dos livros. O departamento de vendas precisa do ERP para
+        gestão de todas as ordens do cliente. A área de logística depende de um
+        software ERP bem executado para fornecer aos clientes os produtos e
+        serviços certos dentro do prazo. O departamento de contas a pagar
+        precisa do ERP para pagar os fornecedores corretamente e dentro do
+        prazo. A gerência precisa de visibilidade instantânea do desempenho da
+        empresa para tomar decisões acertadas. E os bancos e acionistas exigem
+        registros financeiros precisos, por isso contam com dados e análises
+        confiáveis viabilizados pelo sistema ERP. <br /><br />A importância do
+        software ERP para as empresas é ilustrada pela crescente taxa de adoção.
+        De acordo com o G2, “o mercado global de software ERP deverá atingir US$
+        78,40 bilhões até 2026, com uma taxa de crescimento anual composta
+        (CAGR) de 10,2% de 2019 a 2026”
+      </p>
+    </div>
+
+    <div class="funcionamento">
+      <h3 onclick="toggleText(this)">Como funciona um sistema ERP?</h3>
+      <p style="display: none">
+        Um sistema ERP – também chamado de suíte ERP – é composto por módulos
+        integrados ou aplicativos empresariais que se comunicam entre si e
+        compartilham um banco de dados comum. Normalmente, cada módulo ERP se
+        concentra em uma área empresarial, mas eles trabalham juntos usando os
+        mesmos dados para atender às necessidades da empresa. Finanças,
+        contabilidade, recursos humanos, vendas, procurement, logística e cadeia
+        de suprimentos são pontos de partida conhecidos. As empresas podem
+        escolher o módulo desejado, para depois acrescentar outros e fazer o
+        dimensionamento conforme a necessidade. Os sistemas ERP também suportam
+        requisitos específicos do setor, como parte da funcionalidade principal
+        do sistema ou por meio de extensões de aplicativo que se integram
+        perfeitamente ao pacote. O software ERP pode ser adquirido por meio do
+        modelo de assinatura em nuvem (software como serviço) ou do modelo de
+        licenciamento (on premise).
+      </p>
+    </div>
+
+    <div class="beneficios">
+      <h3 onclick="toggleText(this)">Seis principais benefícios do ERP</h3>
+      <p style="display: none">
+        Um bom sistema ERP oferece muitas vantagens, que podem variar dependendo
+        de como o sistema é implementado. Os benefícios do ERP na nuvem, por
+        exemplo, são diferentes dos benefícios do ERP on premise. Dito isso, há
+        seis benefícios principais que se aplicam a todas as soluções ERP
+        modernas: <br /><br />
+        1 - Maior produtividade: otimize e automatize seus principais processos
+        de negócios para ajudar todos na sua organização a fazerem mais com
+        menos recursos.<br /><br />
+        2 - Insights de grande alcance: elimine silos de informações, crie uma
+        fonte única da verdade e tenha respostas rápidas para questões
+        essenciais dos negócios.<br /><br />
+        3 - Rapidez na emissão de relatórios: relatórios rápidos de finanças e
+        de negócios e resultados compartilhados com facilidade. Trabalhe com
+        base em insights e melhore o desempenho em tempo real.<br /><br />
+        4 - Riscos menores: maximize a visibilidade e o controle dos negócios,
+        assegure compliance com as exigências regulatórias e preveja e previna
+        riscos.<br /><br />
+        5 - TI mais simples: utilizando aplicativos integrados de ERP que
+        compartilham um mesmo banco de dados, você simplifica as operações de TI
+        e oferece a todos um modo mais fácil de trabalhar.<br /><br />
+        6 - Agilidade aumentada: com operações eficientes e acesso direto a
+        dados em tempo real, você identifica novas oportunidades e responde
+        rapidamente a elas.
+      </p>
+    </div>
+
+    <div class="implemento">
+      <h3 onclick="toggleText(this)">Tipos de implementação de ERP</h3>
+      <p style="display: none">
+        Sistemas modernos de ERP podem ser implementados de diversas formas: em
+        nuvem pública ou privada, on premise ou em diversos cenários híbridos
+        que combinam diferentes ambientes. Aqui estão alguns dos benefícios mais
+        vantajosos de cada um para ajudar você a identificar a opção de
+        implementação de ERP mais significativa para sua empresa.<br /><br />
+        ERP na nuvem => Com o ERP na nuvem, o software fica hospedado na nuvem e
+        é disponibilizado por meio da Internet como um serviço que você assina.
+        Em geral, o fornecedor do software cuida de manutenção, atualizações e
+        segurança regulares em seu nome. Atualmente, o ERP na nuvem é o método
+        de implementação mais popular por muitos motivos – incluindo custos
+        iniciais mais baixos, maior escalabilidade e agilidade, integração mais
+        fácil e muito mais.<br /><br />
+        ERP on premise => Este é o modelo tradicional de implementação de
+        software no qual você controla tudo. O software ERP é instalado no seu
+        data center nos locais que você escolher. A instalação e a manutenção do
+        hardware e do software são responsabilidade da sua equipe.<br /><br />
+        ERP híbrido => Para empresas que desejam um misto dos dois para atender
+        às exigências de seus negócios, há o modelo de ERP híbrido . Este é o
+        modelo em que alguns de seus aplicativos e dados ERP ficarão na nuvem e
+        outros on premise. Algumas vezes ele é denominado ERP de duas camadas.
+      </p>
+    </div>
+
+    <div class="futuro">
+      <h3 onclick="toggleText(this)">O futuro do ERP</h3>
+      <p style="display: none">
+        A transformação digital está acelerando – e o ERP está no centro. À
+        medida que as empresas adotam tecnologias digitais em todas as áreas de
+        negócios, elas mudam fundamentalmente seu modo de operação. De acordo
+        com o Gartner, um dos principais aceleradores de negócios digitais é o
+        "banimento de entraves" – em outras palavras, a eliminação de qualquer
+        força negativa que entrave o progresso da empresa, incluindo processos e
+        sistemas desatualizados. Portanto, não surpreende o fato de que as
+        empresas já estejam exigindo sistemas ERP mais robustos.<br /><br />
+        Eis aqui três grandes tendências que se baseiam no ímpeto que vemos
+        hoje:<br /><br />
+        1 => Nuvem, nuvem, nuvem: a preferência por ERP na nuvem continuará
+        aumentando à medida que um número cada vez maior de empresas descobrir
+        seus benefícios – incluindo acesso "em qualquer lugar", custo reduzido
+        de hardware e suporte técnico, maior segurança e integração com outros
+        sistemas, só para citar alguns. De acordo com a Panorama Research em seu
+        relatório de ERP de 2020, “Mais da metade das organizações está optando
+        por software na nuvem (63%) em vez de software on premise (37%)”. À
+        medida que a velocidade dos negócios aumenta, a nuvem se torna ainda
+        mais essencial. <br /><br />
+        2 => Integração vertical: o cabo de guerra entre as melhores soluções da
+        categoria e o ERP integrado terminou oficialmente. No futuro,
+        acreditamos que as empresas exigirão o melhor dos dois mundos – um
+        sistema ERP totalmente integrado com extensões verticais. Isso permite
+        que elas obtenham a funcionalidade específica de que necessitam, sem os
+        problemas de integração ou dados bloqueados em silos de informações.
+        Também percebemos a mudança para uma flexibilidade cada vez maior, já
+        que os processos empresariais são adaptados às necessidades individuais
+        de cada empresa.<br /><br />
+        3 => Personalização do usuário: equipe, clientes e fornecedores querem
+        conteúdo e funcionalidades que correspondam a suas necessidades ou a
+        seus interesses específicos e os tornem mais produtivos. As mudanças
+        demográficas da força de trabalho, particularmente em setores como
+        produção, também estão alavancando o interesse por plataformas low-code
+        e no-code. Essas plataformas permitem que os usuários tenham a
+        experiência que desejam, em vez de precisarem se adaptar ao software. Os
+        usuários também podem esperar pesquisa orientada por IA, além de
+        dashboards, chats e fluxos de trabalho personalizados em todos os
+        dispositivos.<br /><br />
+        Explore mais as tendências tecnológicas do ERP e saiba como avaliar
+        sistematicamente suas opções, evitar armadilhas e começar a usar as
+        inovações certas para sua empresa.
+      </p>
+    </div>
+
+    <div class="testimonial-container">
+      <h3 class="heading" id="grupo">Integrantes da Equipe</h3>
+
+      <div class="testimonial-wrapper">
+        <div class="testimonial-box mySwiper">
+          <div class="testimonial-content swiper-wrapper">
+            <div class="testimonial-slide swiper-slide">
+              <img src="images/MarcosDS.png" alt="" />
+              <h3>Marcos DS.</h3>
+              <p>
+                Já tentou ser da Logística, Segurança do Trabalho, Farmácia
+                entre outros e nada fez brilhar os olhos como a Tecnologia da
+                Informação o fez, por isso escolheu entrar nesse novo mundo
+                através do Desenvolvimento de Sistemas. Apaixonado por Html,
+                Css, Java Script e seus Frameworks por isso se considera um
+                genuíno FrontEnd.
+              </p>
+            </div>
+            <div class="testimonial-slide swiper-slide">
+              <img src="images/Gustavo.jpeg" alt="" />
+              <h3>Gustavo</h3>
+              <p>
+                Bonito, rico e talentoso, esse é o Neymar... eu sou o Gustavo um
+                jovem senhor de 17 anos que anseia pela sua vez de ingressar no
+                mercado de trabalho, fazendo algo que gosta muito: Fazer
+                programa.&#128064;
+              </p>
+            </div>
+            <div class="testimonial-slide swiper-slide">
+              <img src="images/Eduward.jpg" alt="" />
+              <h3>Eduward</h3>
+              <p>
+                Parece que tem uns 25 anos, porém tem só 19... atualmente
+                matriculado em diversos cursos sobre Tecnologia fazendo com que
+                vá criando muita bagagem quando se fala de Desenvolvimento de
+                Sistemas, curte muito um bom BackEnd.
+              </p>
+            </div>
+            <div class="testimonial-slide swiper-slide">
+              <img src="images/Peterson.jpg" alt="" />
+              <h3>Peterson W.</h3>
+              <p>
+                Peterson Wollinger nome de ator americano, porém é BR da gema de
+                São Vicente, 20 anos e que sonha ser um programador para
+                melhorar de vida, trabalhar home office para curtir os bons
+                momentos que a vida ainda tem a lhe propor.
+              </p>
+            </div>
+          </div>
+
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-text">
+        <b
+          >Copyright &copy; 2023 by
+          <a href="https://marcosds.tech" target="_blank">MarcosDS</a>
+          <br />Etec 1DS3 | Eduward. Gustavo. Peterson.</b
+        >
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#home"
+          ><i class="bx bx-up-arrow-alt" onclick="scrollToTop()"></i
+        ></a>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--SWIPER JS-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
